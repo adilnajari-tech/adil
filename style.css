@@ -1,0 +1,29 @@
+body{
+	background-color: gold;
+}
+button{
+	cursor: pointer;
+	font-size: 30px;
+    color: red;
+}
+h1{
+	font-size: 45px;
+}
+a{
+	text-decoration: none;
+	font-size: 25px;
+	color: blue;
+	background-color: red;
+	border-radius: 5px;
+	font-weight: bold;
+}
+a:hover{
+	color: red;
+	background-color: blue;
+}
+p{
+	font-size: 25px; 
+	font-weight: bold;
+	font-family: cursive;
+	color: black;
+}

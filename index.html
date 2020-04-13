@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Test JavaScript</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<center>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+	<h1 id="myTitle">Welcome To My Home Page</h1>
+	<button id="myButton">Click Her For Changed Title</button>
+	<br><br>
+	<a href="index.html">Back</a>
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+    <p>Copyright | Adil Najari</p>
+    </center>
+
+    <script>
+    	var title = document.getElementById('myTitle');
+    	var button = document.getElementById('myButton');
+
+
+    	button.onclick = function(){
+    		title.innerHTML = "Thanks You Brother";
+    	};
+    </script>
+</body>
+</html>
